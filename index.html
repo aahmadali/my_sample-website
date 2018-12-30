@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <style>
       /* GLOBAL STYLES */
+      html, body{
+        margin: 0;
+        padding: 0;
+      }
       h1 {
         font-size: 7vw;
         margin-top: 0;
@@ -23,18 +27,38 @@
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(150, 150, 150, 0.5);
-        color: blue;
+        border-radius: 99px;
+        color: #fff;
+        box-sizing: border-box;
         display: inline-block;
-        height: 36px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        height: 2.5em;
+        line-height: 1;
+        padding-top: 0.85em;
+        text-align: center;
+        text-decoration:none;
+        vertical-align: middle;
+        width: 2.5em;
+    }
+    .social-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+      .social-list > li{
+        display: inline-block;
+        margin:0 0.5em;
       }
 
       /* BIO STYLES */
-      .bio-wrapper {
-        font-size: 24px;
-      }
+        
       .bio-wrapper{
         font-size: 24px;
-       overflow: hidden;
+        overflow: hidden;
+        max-width: 960px;
+        overflow: hidden;
       }
 
       .bio-box {
@@ -47,53 +71,58 @@
         width: 23%;
       }
       .bio-box h3 {
+        color: rgb(28, 151, 59);
         font-size: 1.5em;
+        margin: -40px 0 1em;
+        text-align: center;
+
   
       }
       .bio-box img {
         width: 100%;
+    
       }
       .bio-copy {
         font-size: 1em;
       }
       .bio-copy a {
         color: green;
+      
+       
       }
       .social-list{
         list-style: none;
         padding: 0;
-        text-align: right;
-      }
-      .social-list > li{
-        display: inline-block;
+        text-align: center;
+      
       }
     </style>
   </head>
   <body>
     <div class="full-hero hero-home">
-      <h1>I'm an h1</h1>
+      <h1>This is Manchester United</h1>
       <ul class="social-list">
         <li>
-          <a href="http://example.com/" class="social-link">Link1</a>
+          <a href="http://example.com/" class="social-link">Tw</a>
         </li>
         <li>
-          <a href="http://example.com/" class="social-link">Link2</a>
+          <a href="http://example.com/" class="social-link">Fb</a>
         </li>
         <li>
-          <a href="http://example.com/" class="social-link">Link3</a>
+          <a href="http://example.com/" class="social-link">Gh</a>
         </li>
       </ul>
     </div>
-    <h2>I'm an h2</h2>
+    <h2>Red Devils</h2>
 
 
 
  <div class="bio-wrapper"> 
 
       <div class="bio-box">
-          <img src="http://placekitten.com/g/400/400">
-        <h3>Michael Hartl</h3>
-        <a href="http://twitter.com/mhartl" class="social-link">here</a>
+          <img src="images/mtd.jpg">
+        <h3>Alex Ferguson</h3>
+        <a href="http://twitter.com/mhartl" class="social-link">Tw</a>
 
         
         <div class="bio-copy">
@@ -116,9 +145,9 @@
 
 
       <div class="bio-box">
-          <img src="http://placekitten.com/g/400/400">
-        <h3>Lee Donahoe</h3>
-        <a href="https://twitter.com/leedonahoe" class="social-link">here</a>
+          <img src="images/mtd.jpg">
+        <h3>Sir Matt Busby</h3>
+        <a href="https://twitter.com/leedonahoe" class="social-link">Tw</a>
 
 
 
@@ -137,9 +166,9 @@
 
      <div class="bio-box">
           
-        <img src="http://placekitten.com/g/400/400">  
-        <h3>Nick Merwin</h3>
-        <a href="https://twitter.com/nickmerwin" class="social-link">here</a>
+        <img src="images/mtd.jpg">  
+        <h3>Sir Bobby Charlton</h3>
+        <a href="https://twitter.com/nickmerwin" class="social-link">Tw</a>
         <div class="bio-copy">
           <p>
             You may have seen him shredding guitar live with Capital Cities on
@@ -152,7 +181,8 @@
 
 
       <div class="bio-box">
-        <h3>last thing</h3>
+        <img src="images/mtd.jpg">
+        <h3>Dennis Law</h3>
         <p>
           The Future
         </p>
