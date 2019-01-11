@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<div class="full-hero hero-home">
+
+  <div class="home"> 
+    <div class="full-hero hero-home">
       <div class="hero-content">
       <h1> Manchester United</h1>
       <ul class="social-list">
@@ -58,10 +60,7 @@ layout: default
     <div class="home-section">
       <h2>Legends</h2>
      <p>
-    Learn Enough to Be Dangerous was founded in 2015 by Michael Hartl, Lee
-    Donahoe, and Nick Merwin. We believe that the kind of technical
-    sophistication taught by the Learn Enough tutorials can benefit at least a
-    billion people, and probably more.
+    This article is about Manchester United players with at least 100 appearances. For a list of all Manchester United players with a Wikipedia article, see Category:Manchester United F.C. players. For the current Manchester United first-team squad, see Manchester United F.C. § First-team squad.
   </p>
 
 
@@ -132,24 +131,5 @@ layout: default
  </div>
     </div>
 
-
-      <div class="bio-box">
-        <img src="images/sir_denis.jpg">
-        <h3>Dennis Law</h3>
-        <p>
-    Denis Law CBE (born 24 February 1940) is a Scottish former footballer who
-    played as a forward. His career as a football player began at Second Division
-    Huddersfield Town in 1956. After four years at Huddersfield, he was signed by
-    Manchester City for a transfer fee of £55,000, which set a new British record. 
-    Law spent one year there before Torino bought him for £110,000, this time 
-    setting a new record fee for a transfer involving a British player. 
-
-        </p>
       </div>
-      </div>
-
-
- 
-  </body>
-</html>
-   
+  
