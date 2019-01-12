@@ -19,7 +19,6 @@ layout: default
       </ul>
       </div>
     </div>
-    
     <div class="home-callout">
         <h1 class="callout-title">Myths and Legends</h1>
         <div class="callout-copy">
@@ -30,9 +29,6 @@ layout: default
              skills" like guessing keyboard shortcuts, Googling error messages, and
             knowing when to just reboot the darn thing.
           </p>
-      
-         
-      
           <p>
             We believe there are <strong>at least a billion people</strong> who can
             benefit from learning technical sophistication, probably more. To join
@@ -40,8 +36,7 @@ layout: default
             <a href="https://learnenough.com/#email_list">sign up for our official
             email list</a> now.
           </p>
-      
-          <h3>Background</h3>
+             <h3>Background</h3>
           <p>
             Learn Enough to Be Dangerous is an outgrowth of the
             <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> and the
@@ -57,7 +52,31 @@ layout: default
           </div>
           </div>
 
-    <div class="home-section">
+<div class="home-section"> 
+  <h4>Most recent post</h4>
+  <div class="blog-posts">
+    <header class="post-header">
+      <h2>
+        <a href="{{ site.posts.first.url }}">
+        {{ site.posts.first.title }}</a>
+      </h2>
+      <div class="post-byline">
+        <img src="{{ site.posts.first.gravatar }}">
+        <a href="{{ site.posts.first.authorTwitter }}"
+        class="social-link">Tw</a>
+        by: {{ site.posts.first.author }}
+        <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
+      </div>
+    </header>
+    <div class="posts-image"
+    style="background-image:url({{ site.posts.first.postHero }})"></div>
+    {{ site.posts.first.excerpt }}
+  </div>
+</div>
+
+
+
+ <div class="home-section">
       <h2>Legends</h2>
      <p>
     This article is about Manchester United players with at least 100 appearances. For a list of all Manchester United players with a Wikipedia article, see Category:Manchester United F.C. players. For the current Manchester United first-team squad, see Manchester United F.C. § First-team squad.
@@ -66,14 +85,11 @@ layout: default
 
 
  <div class="bio-wrapper"> 
-
-      <div class="bio-box"> 
+  <div class="bio-box"> 
           <img src="images/sir_alex.jpg">
         <h3>Alex Ferguson</h3>
         <a href="http://twitter.com/mhartl" class="social-link">Tw</a>
-
-        
-        <div class="bio-copy">
+  <div class="bio-copy">
           <p>
             Known for his dazzling charm, rapier wit, and unrivaled humility,
             Michael is the creator of the
@@ -89,17 +105,11 @@ layout: default
           </p>
         </div>
       </div>
-
-
-
       <div class="bio-box">
           <img src="images/sir_matt.jpg">
         <h3>Sir Matt Busby</h3>
         <a href="https://twitter.com/leedonahoe" class="social-link">Tw</a>
-
-
-
-        <div class="bio-copy">
+  <div class="bio-copy">
           <p>
             When he's not literally swimming with sharks or hunting powder
             stashes on his snowboard, you can find Lee in front of his computer
@@ -110,11 +120,8 @@ layout: default
       </div>
 
 
-
-
-     <div class="bio-box">
-          
-        <img src="images/sir_bob.jpg">  
+  <div class="bio-box">
+       <img src="images/sir_bob.jpg">  
         <h3>Sir Bobby Charlton</h3>
         <a href="https://twitter.com/nickmerwin" class="social-link">Tw</a>
         <div class="bio-copy">
@@ -123,13 +130,10 @@ layout: default
        who played as a midfielder. He is regarded as one of the greatest players of all
        time,[6] and an essential member of the England team who won the World Cup in 1966,
        the year he also won the Ballon d'Or. 
-
-
-          </p>
+ </p>
         </div>
      </div>
  </div>
     </div>
-
-      </div>
+</div>
   

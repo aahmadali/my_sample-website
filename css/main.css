@@ -261,7 +261,14 @@ a {
 }
 .hero-content .social-link:hover {
   background-color: #000;
-  color: #fff;}
+  color: #fff;
+}
+
+  .half-hero {
+  background-position: center center;
+  background-size: cover;
+  height: 40vh;
+}
 
 /* SOCIAL STYLES */
 .social-link{
@@ -291,6 +298,23 @@ a {
   margin: 0 0.5em;
 }
 /* HOMEPAGE STYLES */
+/*in case temporary*/
+.home-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.home-section h4 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.home-section .post-header {
+  text-align: center;
+}
+.home-section .blog-posts {
+  margin: auto;
+  width: 75%;
+}
+/*incase temporary*/
 .home-section{
 flex-grow: 1;
 margin: 6rem auto;
@@ -341,19 +365,20 @@ padding:0 0 -50vh 0;
   display: inline-flex;
 }
 .bio-box {
-  border:1px solid black;
+ 
   box-sizing: border-box;
-  float: left;
-  font-size: 1rem;
+  float: none;
+  font-size: 1.3rem;
   margin: 6rem 2rem 0 1rem;
   padding: 0 3%;
-  width: 33%;
+  width: auto;
+  
   
 }
 .bio-box h3 {
   color: rgb(177, 28, 177);
   font-size: 1.5em;
-  margin: -40px 0 1em;
+  margin: -50px 0 1em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -380,6 +405,14 @@ padding:0 0 -50vh 0;
 }
 
 /* GALLERY STYLES */
+
+.gallery{
+  flex-direction: column;
+  
+}
+.gallery .gallery-thumbs{
+  white-space: nowrap;
+}
 .gallery-thumbs {
   height: 90vh;
   overflow: scroll;
@@ -394,7 +427,8 @@ padding:0 0 -50vh 0;
   margin: 0 0 10px;
   opacity: 0.8;
   transition: all 0.5s ease-in-out;
-  width: 90%;
+  width: auto;
+  height: 20vh;
 }
 .gallery-thumbs img:hover {
   opacity: 1;
@@ -406,6 +440,7 @@ padding:0 0 -50vh 0;
 }
 .gallery-photo {
   position: relative;
+  width: auto;
 }
 .gallery-photo img {
   width: 90%;
@@ -486,4 +521,51 @@ padding:0 0 -50vh 0;
 }
 .page h4 {
   margin-bottom: 1em;
+}
+/*post styles(post.html)*/
+
+.post {
+  width: 100%;
+}
+.post-content,
+.post-footer {
+  margin: auto;
+  max-width: 40em;
+  width: 85vw;
+}
+.pull-left {
+  float: left;
+  margin: 2em 2em 2em -2%;
+}
+.pull-right {
+  float: right;
+  margin: 2em -2% 2em 2em
+}
+.post-aside {
+  background-color: rgba(0, 0, 0, 0.01);
+  float: right;
+  margin: 0 0 2em 2em;
+  padding: 2em;
+}
+.post .post-header {
+  margin-bottom: 2.5em;
+  text-align: center;
+}
+.post-content {
+  font-size: 1.1rem;
+}
+.post-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 3em;
+  padding-top: 2em;
+}
+
+/* media querry */
+@media (max-width:800px){
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
 }
