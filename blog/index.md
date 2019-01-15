@@ -1,5 +1,7 @@
 ---
 layout: default
+title: dangerous blog
+description: A dangerous site deserves a dangerous blog.
 ---
 
 
@@ -7,7 +9,7 @@ layout: default
   <h1>Bloggie Blog</h1>
   <div class="col-two blog-cols">
     <div class="col col-aside blog-recent">
-      <h4>Recent Posts</h4>
+      <h2>Recent Posts</h2>
       <ul class="blog-title-list">
         {% for post in site.posts limit:5 %}
           <li>
@@ -24,7 +26,7 @@ layout: default
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <div class="post-byline">
               <img src="{{ post.gravatar }}" />
-              <a href="{{ post.authorTwitter }}" class="social-link">Fb</a>
+              <a href="{{ post.authorfacebook }}" class="social-link">fb</a>
               by: {{ post.author }}
               <span> - {{ post.date | date: '%B %d, %Y' }}</span>
             </div>
